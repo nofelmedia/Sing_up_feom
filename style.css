@@ -177,46 +177,75 @@ img {
     top: 0px;
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width:360px){
     body{
         background-image: linear-gradient(#352c2c54, #20131333),
         url('background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200vh;
-        width: 640px;
+        height: 130vh;
+        width: 360px;
+        
     }
 
     .contunnee {
         position: relative;
-        width: 640px;
+        width: 360px;
         margin: auto;
         overflow: hidden;
-         height: 200vh;
+         height: 130vh;
     }
-
+    #Selector{
+        top: 20px;
+    }
     .social_link {
         position: absolute;
-        width: 300px;
-        top: 145vh;
-       left: 22%;
-        transform: translateY(-50%);
-
+        width: 200px;
+        top: 95vh;
+       left: 22%; 
+    }
+    .sci li a{
+        width: 230px;
+        font-size: 20px;
+        cursor: pointer;
+        line-height: -1.8ex;
+        height: 30px;
+    }
+    #icon{
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        color: #fff;
+         top: 41px;
+         left: -37px;
     }
 
     #data{
-        top: 200px;
-        left: 13%;
+        width: 300px;
+        top: 120px;
+        height: 300px;
+         left: 8%;
     }
     .data2{
-        top: 200px;
-         left: 13%;
+         width: 300px;
+        top: 120px;
+         left: 8%;
+         height: 300px;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+    img{
+       width: 300px;
+       height: 300px;
     }
     #name{
-        width: 300px;
-        top: 150px;
-        left: 19%;
+        width: 200px;
+        top: 85px;
+        left: 23%;
+        font-size: 10px;
     }
 
 }
